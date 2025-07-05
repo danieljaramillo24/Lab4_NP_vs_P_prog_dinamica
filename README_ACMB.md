@@ -100,8 +100,8 @@ A continuación, se exponen las fórmulas de complejidad para cada estrategia us
 
 #### Fuerza Bruta
 
-- Recorre dos caminos independientes: $$ O(h) + O(h) $$, donde $$ h $$ es la altura del árbol.
-- Comparación de caminos: $$ O(h) $$
+- Recorre dos caminos independientes: $$O(h) + O(h)$$, donde $$h$$ es la altura del árbol.
+- Comparación de caminos: $$O(h)$$
 - **Complejidad total**:
 
 $$
@@ -166,14 +166,10 @@ Este fragmento engloba el ahorro computacional. Se accede al resultado ya almace
 #### Complejidad:
 
 En el mejor caso (si es un BST balanceado):
-$$
-T(n) = O(\log n)
-$$
+$$T(n) = O(\log n)$$
 
 En el peor caso (BST completamente desbalanceado):
-$$
-T(n) = O(n)
-$$
+$$T(n) = O(n)$$
 
 La mejora se da especialmente cuando hay múltiples consultas. Por ejemplo, si ya se resolvió la búsqueda entre (2, 8), esa solución ya está lista para ser reutilizada.
 
@@ -194,9 +190,7 @@ Ambas ramas se exploran completamente de forma independiente.
 #### Complejidad:
 
 Cada nodo se puede visitar una vez como máximo:
-$$
-T(n) = O(n)
-$$
+$$T(n) = O(n)$$
 
 Este método tiene una ejecución predecible, aunque no tan eficiente si el árbol es muy grande y se hacen múltiples consultas.
 
@@ -218,16 +212,14 @@ Esto implica dos recorridos completos más una comparación paso a paso.
 
 Si el árbol tiene altura `h` (profundidad del nodo más profundo), entonces:
 
-- Camino desde raíz hasta p: $$ O(h) $$
-- Camino desde raíz hasta q: $$ O(h) $$
-- Comparación de caminos: $$ O(h) $$
+- Camino desde raíz hasta p: $$O(h)$$
+- Camino desde raíz hasta q: $$O(h)$$
+- Comparación de caminos: $$O(h)$$
 
 Por lo tanto:
 
-$$
-T(n) = O(h) + O(h) + O(h) = 3 \cdot O(h) = O(h)
-$$
+$$T(n) = O(h) + O(h) + O(h) = 3 \cdot O(h) = O(h)$$
 
-En árboles balanceados $$ h = \log n $$
+En árboles balanceados $$h = \log n$$
 
-Pero en el peor caso puede ser $$ O(n) $$.
+Pero en el peor caso puede ser $$O(n)$$.
