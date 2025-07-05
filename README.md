@@ -1,5 +1,7 @@
 ## **Desarrollo algoritmos árbol binario primer punto**
 
+**Nota: Todos los cambios realizados son previo a las 23:59 del día 04/07/2025 fecha y hora límites para el Laboratorio 4. Como se puede verificar en los commits. Y se referen más a correciones de forma y no de contenido.** 
+
 Dado el enunciado halle:
 
 **a. Halle la solución del problema mediante Top-down (Memoización):**  
