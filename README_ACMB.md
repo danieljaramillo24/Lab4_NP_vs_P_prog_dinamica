@@ -131,9 +131,9 @@ con mejor rendimiento en múltiples consultas gracias al cache, con resultados y
 
 En términos de espacio:
 
-- **Fuerza Bruta**: $$ O(h) $$ por cada camino
-- **Constructivo**: $$ O(h) $$ por la pila de recursión
-- **Memoización**: $$ O(n) $$ por el diccionario `dict_memo`
+- **Fuerza Bruta**: $$O(h)$$ por cada camino
+- **Constructivo**: $$O(h)$$ por la pila de recursión
+- **Memoización**: $$O(n)$$ por el diccionario `dict_memo`
 
 ---
 
